@@ -205,3 +205,45 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.hero-img {
+    max-width: 630px;
+    height: auto;
+}
+.content-left{
+    width: 30%;
+}
+main h1{
+    font-size: 60px;
+    font-family: var(--font);
+    font-weight: bold;
+    color: var(--color-dark);
+}
+.main h6{
+    font-size: 16px;
+    color: var(--color-dark);
+    opacity: 50%;
+}
+.main p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.cta{
+    padding: 15px 30px;
+    color: #FFFFFF;
+    outline-color: none;
+    border: none;
+    background: var(--color-primary);
+    border-radius: 4px;
+    font-size: 24px;
+    font-family: var(--font-logo);
+    font-weight: 400;
+
+}
